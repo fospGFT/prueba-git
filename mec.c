@@ -1,9 +1,13 @@
-<html>
-<head>
-    <title>Esta es mi primera pagina</title>
-</head>
-<body>
-    <h1>Esto es un encabezado</h1>
-    <p>Y esto es un parrafo, donde podemos escribir todo el rollo que se nos ocurra.
-</body>
-</html>
+/* Programa: Hola mundo */
+
+#include <conio.h>
+#include <stdio.h>
+
+int main()
+{
+    printf( "Hola mundo." );
+
+    getch(); /* Pausa */
+
+    return 0;
+}
